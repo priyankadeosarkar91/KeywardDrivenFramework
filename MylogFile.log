@@ -1,0 +1,8 @@
+Mar 28, 2020 7:52:52 PM com.keywordframework.utilities.WriteLogEntriesToFile main
+INFO: Info
+Mar 28, 2020 7:52:52 PM com.keywordframework.utilities.WriteLogEntriesToFile main
+INFO: General info msg
+Mar 28, 2020 7:52:52 PM com.keywordframework.utilities.WriteLogEntriesToFile main
+WARNING: Wanrning msg: potential problem
+Mar 28, 2020 7:52:52 PM com.keywordframework.utilities.WriteLogEntriesToFile main
+SEVERE: Severe msg: serious failure
