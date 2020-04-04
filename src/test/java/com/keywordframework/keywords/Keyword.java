@@ -165,66 +165,21 @@ public class Keyword{
 		return elemnt;
 	}
 	
-	
-	/**This method presents click on element action and perform action, stay on current window which is clicked 
-	 * as required with parameter locatorType {@code String}, locatorval {@code String}. 
-	 * 
+	/**
+	 * This method is used to enter text if text-box is available.
+	 * {@code SendKeys} for send text in text-box
 	 * @param locatorType
 	 * @param locatorval
-	 * 
-	 * @author Priyanka
+	 * @param textval
 	 */
-	public static void clickOnElement(String locatorType, String locatorval) {
-		WebElement element=getElementfrom(locatorType, locatorval);
-		element.click();
-	}
-	
-
-	/**This method presents click on element action and perform action, back to parent window 
-	 * as required with parameter locatorType {@code String}, locatorval {@code String}. 
-	 * 
-	 * @param locatorType
-	 * @param locatorval
-	 *
-	 * @author Priyanka
-	 */
-	public static void clickOnElementNavigateBackToParentWindow(String locatorType, String locatorval) {
-		Constants.parentWindowHandle=Constants.driver.getWindowHandle();
-		//System.out.println("Parent Window handle : " + Constants.parentWindowHandle);
+	public static void enterText(String locatorType,String locatorval, String textval) {
 		
-		clickOnElement(locatorType, locatorval);
-		
-		if(Constants.parentWindowHandle.equalsIgnoreCase(Constants.driver.getWindowHandle())){ //Check with current window handle
-			Constants.driver.navigate().back();
-		}
-	}
-	
-
-	/**This method presents multiple window handle when click on element action 
-	 * as required with parameter locatorType {@code String}, 
-	 * locatorval {@code String}. 
-	 * 
-	 * @param locatorType
-	 * @param locatorval
-	 * @author Priyanka
-	 */
-	public static void handleSwitchToNewWindow(String locatorType, String locatorval) {
-		Constants.parentWindowHandle=Constants.driver.getWindowHandle();
-		System.out.println("Parent Window handle : " + Constants.parentWindowHandle);
-		WebElement element=getElementfrom(locatorType, locatorval);
-		element.click();
-		
-		Set <String> childWindow=Constants.driver.getWindowHandles();
-		System.out.println("child Window handles : " + childWindow);
-		
-		for(String handle:childWindow) {
-			if(!Constants.parentWindowHandle.equalsIgnoreCase(handle)) {
-				Constants.driver.switchTo().window(handle);
-			}
-		}
+		WebElement textbox=getElementfrom(locatorType, locatorval);
+		textbox.clear();
+		textbox.sendKeys(textval);
 	}
 
-	/** This Method is used to verify menu items on the Homepage. actual menu items stored in {@code List}.
+	/** This Method is used to verify if menu(nav) items present. actual menu items stored in {@code List}.
 	 * {@code ArrayList} used to get element of list in the form of array to compare with expected menu items.
 	 * 
 	 * @param subNavItems {@code List}
@@ -243,20 +198,58 @@ public class Keyword{
 		return actualSubNavItems;
 	}
 	
-	/**
-	 * This method is used to enter text if text-box is available.
-	 * {@code SendKeys} for send text in text-box
+	
+	/**This method presents click on element action and perform action, back to parent window 
+	 * as required with parameter locatorType {@code String}, locatorval {@code String}. 
+	 * 
 	 * @param locatorType
 	 * @param locatorval
-	 * @param textval
+	 *
 	 */
-	public static void enterText(String locatorType,String locatorval, String textval) {
+	public static void clickOnElement(String locatorType, String locatorval) {
+		Constants.parentWindowHandle=Constants.driver.getWindowHandle();
+		System.out.println("Parent Window handle : " + Constants.parentWindowHandle);
 		
-		WebElement textbox=getElementfrom(locatorType, locatorval);
-		textbox.clear();
-		textbox.sendKeys(textval);
+		WebElement element=getElementfrom(locatorType, locatorval);
+		element.click();
+		Set <String> childWindow=Constants.driver.getWindowHandles();
+		System.out.println("child Window handles : " + childWindow);
+		
+		for(String handle:childWindow) {
+			if(!Constants.parentWindowHandle.equalsIgnoreCase(handle)) {
+				Constants.driver.switchTo().window(handle);
+				System.out.println("Child Window Title: " +Constants.driver.getTitle());
+				Constants.driver.close();
+				Constants.driver.switchTo().window(Constants.parentWindowHandle);
+				System.out.println("Parent Window Title: " +Constants.driver.getTitle());
+			}
+		}
 	}
 	
+	/**This method presents multiple window handle when click on element action 
+	 * as required with parameter locatorType {@code String}, 
+	 * locatorval {@code String}. 
+	 * 
+	 * @param locatorType
+	 * @param locatorval
+	 * @author Priyanka
+	 */
+	public static void clickOnElementhandleSwitchToNewWindow(String locatorType, String locatorval) {
+		Constants.parentWindowHandle=Constants.driver.getWindowHandle();
+		System.out.println("Parent Window handle : " + Constants.parentWindowHandle);
+		WebElement element=getElementfrom(locatorType, locatorval);
+		element.click();
+		
+		Set <String> childWindow=Constants.driver.getWindowHandles();
+		System.out.println("child Window handles : " + childWindow);
+		
+		for(String handle:childWindow) {
+			if(!Constants.parentWindowHandle.equalsIgnoreCase(handle)) {
+				Constants.driver.switchTo().window(handle);
+			}
+		}
+	}
+		
 	/**
 	 * This method is used to get text from auto pop-up List while entering key text @param enterText.
 	 * @param enterText
@@ -276,6 +269,22 @@ public class Keyword{
 				break;
 				}
 		 }
+	}
+
+	/**This method perform action of mouse Hover On Element as required with parameter locatorType {@code String}, 
+	 * locatorval {@code String}. 
+	 * 
+	 * @param locatorType
+	 * @param locatorval
+	 * {@link Actions}
+	 * @return 
+	 */
+	public static WebElement mouseHoverOnElement(String locatorType, String locatorval) {
+		Constants.action=new Actions(Constants.driver);
+		WebElement tab=getElementfrom(locatorType, locatorval);
+		Constants.action.moveToElement(tab);
+		//action.perform();
+		return tab;
 	}
 	
 	/**
@@ -306,29 +315,15 @@ public class Keyword{
 			}
 	}
 
-	/**This method perform action of mouse Hover On Element as required with parameter locatorType {@code String}, 
-	 * locatorval {@code String}. 
-	 * 
-	 * @param locatorType
-	 * @param locatorval
-	 * {@link Actions}
-	 * @return 
-	 */
-	public static WebElement mouseHoverOnElement(String locatorType, String locatorval) {
-		Constants.action=new Actions(Constants.driver);
-		WebElement tab=getElementfrom(locatorType, locatorval);
-		Constants.action.moveToElement(tab);
-		//action.perform();
-		return tab;
-	}
 	/**
 	 * 
 	 */
-	public static void takeAScreenshot() {
+	public static void takeAScreenshot(String testMethodName) {
 		File imgSrc = ((TakesScreenshot)Constants.driver).getScreenshotAs(OutputType.FILE);
 	    String timespan =  new SimpleDateFormat("dd_MM_yy").format(new Date());
-	    String timespan1 =  new SimpleDateFormat("ddMM_hhmmss").format(new Date());
-	    File imgDest = new File("D:\\java PDD\\Framework_Keyword_redbus\\Screenshots\\"+timespan+"\\SC_"+timespan1+".png");
+	    String timespan1 =  new SimpleDateFormat("ddMM_hhmm").format(new Date());
+	    File imgDest = new File("D:\\java PDD\\Framework_Keyword_redbus\\Screenshots\\"+timespan+"\\SC_"+testMethodName+
+	    		"_"+timespan1+".png");
 	    try {
 			FileUtils.copyFile(imgSrc, imgDest);
 		} catch (IOException e) {
@@ -336,6 +331,20 @@ public class Keyword{
 		}
 	}
 	
+	public static void fullpagescreenshot(String testMethodName) {
+		Constants.screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(3000)).takeScreenshot(Constants.driver);
+		String timespan =  new SimpleDateFormat("dd_MM_yy").format(new Date());
+	    String timespan1 =  new SimpleDateFormat("ddMM_hhmm").format(new Date());
+	    try {
+			ImageIO.write(Constants.screenshot.getImage(), "PNG", new File("D:\\java PDD\\Framework_Keyword_redbus\\FullPageSreenshot\\"+timespan+
+					"\\FSC_"+testMethodName+"_"+timespan1+".png"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
 	public static void closeBrowser() {
 		Constants.driver.close();
 	}

@@ -1,0 +1,141 @@
+2020-04-04 00:08:33,574  INFO [main] test2:17 - ******************* Starting test cases execution  **********************************
+2020-04-04 00:08:46,021  INFO [main] test2:19 - Chromebrowser is opened
+2020-04-04 00:08:46,040  INFO [main] test2:24 -  *************************Launching chrome broswer *****************************
+2020-04-04 00:09:07,529  INFO [main] test2:31 - VerifyScreenshot : Redbus Logo
+2020-04-04 00:09:08,808  INFO [main] test2:40 - ******************** VerifyScreenshot-forFailedTC *****************************
+2020-04-04 00:28:51,863  INFO [main] test2:29 - ******************* Starting test cases execution  **********************************
+2020-04-04 00:29:06,493  INFO [main] test2:31 - Chrome browser is opened
+2020-04-04 00:29:06,510  INFO [main] test2:36 -  *************************Launching chrome broswer *****************************
+2020-04-04 00:29:18,531  INFO [main] test2:43 -  *************************Verify Title Of Page *****************************
+2020-04-04 00:29:18,615  INFO [main] test2:51 -  *************************Verify Logo *****************************
+2020-04-04 00:29:18,883  INFO [main] test2:59 -  **********************Verify Menu Items1*****************************
+2020-04-04 00:29:23,363  INFO [main] test2:72 -  **********************Verify Menu Items2*****************************
+2020-04-04 00:29:24,521  INFO [main] test2:85 -  **********************Verify Menu Items3*****************************
+2020-04-04 00:29:25,133  INFO [main] test2:99 -  **********************Verify Mouse Hover Action*****************************
+2020-04-04 00:29:25,246  INFO [main] test2:109 -  **********************Verify Element To Be Clickable*****************************
+2020-04-04 00:29:34,160  INFO [main] test2:117 -  **********************Verify Element To Be Clickable *****************************
+2020-04-04 00:29:36,042  INFO [main] test2:125 -  **********************Verify Window Handle*****************************
+2020-04-04 00:29:37,405  INFO [main] test2:136 -  **********************VerifyTextBoxLabel : for src textbox*****************************
+2020-04-04 00:29:38,915  INFO [main] test2:144 -  **********************VerifyFromSourceInputBox :By Entering Text*****************************
+2020-04-04 00:29:40,360  INFO [main] test2:151 - **********VerifyFromSourceInputBox : By selecting Text from autopopup list*******
+2020-04-04 00:29:47,757  INFO [main] test2:163 -  **********************VerifyTextBoxLabel : for dest textbox*****************************
+2020-04-04 00:29:54,750  INFO [main] test2:172 -  **********************VerifyToDestinationInputBox :By Entering Text*****************************
+2020-04-04 00:29:56,067  INFO [main] test2:181 - **********VerifyToDestinationInputBox : By selecting Text from autopopup list*******
+2020-04-04 00:29:57,538  INFO [main] test2:194 - ********************Verify: PickDateFromCalender for Onward Journey******************
+2020-04-04 00:29:59,035  INFO [main] test2:202 - ******************VerifyScreenshot : Redbus Logo***********************
+2020-04-04 00:30:00,635  INFO [main] test2:211 - ******************** VerifyScreenshot-forFailedTC *****************************
+2020-04-04 00:30:02,103  INFO [main] test2:219 - ******************* Close Browser **********************************
+2020-04-04 00:33:29,672  INFO [main] test2:29 - ******************* Starting test cases execution  **********************************
+2020-04-04 00:33:37,916  INFO [main] test2:31 - Chrome browser is opened
+2020-04-04 00:33:37,939  INFO [main] test2:36 -  *************************Launching chrome broswer *****************************
+2020-04-04 00:33:42,685  INFO [main] test2:43 -  *************************Verify Title Of Page *****************************
+2020-04-04 00:33:42,775  INFO [main] test2:51 -  *************************Verify Logo *****************************
+2020-04-04 00:33:43,085  INFO [main] test2:59 -  **********************Verify Menu Items1*****************************
+2020-04-04 00:33:45,035  INFO [main] test2:72 -  **********************Verify Menu Items2*****************************
+2020-04-04 00:33:46,198  INFO [main] test2:85 -  **********************Verify Menu Items3*****************************
+2020-04-04 00:33:46,869  INFO [main] test2:99 -  **********************Verify Mouse Hover Action*****************************
+2020-04-04 00:33:47,030  INFO [main] test2:109 -  **********************Verify Element To Be Clickable*****************************
+2020-04-04 00:33:55,782  INFO [main] test2:119 -  **********************Verify Element To Be Clickable *****************************
+2020-04-04 00:34:02,350  INFO [main] test2:127 -  **********************Verify Window Handle*****************************
+2020-04-04 00:34:09,118  INFO [main] test2:138 -  **********************VerifyTextBoxLabel : for src textbox*****************************
+2020-04-04 00:34:09,350  INFO [main] test2:146 -  **********************VerifyFromSourceInputBox :By Entering Text*****************************
+2020-04-04 00:34:10,401  INFO [main] test2:153 - **********VerifyFromSourceInputBox : By selecting Text from autopopup list*******
+2020-04-04 00:34:13,440  INFO [main] test2:165 -  **********************VerifyTextBoxLabel : for dest textbox*****************************
+2020-04-04 00:34:13,625  INFO [main] test2:174 -  **********************VerifyToDestinationInputBox :By Entering Text*****************************
+2020-04-04 00:34:13,969  INFO [main] test2:183 - **********VerifyToDestinationInputBox : By selecting Text from autopopup list*******
+2020-04-04 00:34:16,857  INFO [main] test2:196 - ********************Verify: PickDateFromCalender for Onward Journey******************
+2020-04-04 00:34:17,909  INFO [main] test2:204 - ******************VerifyScreenshot : Redbus Logo***********************
+2020-04-04 00:34:18,789  INFO [main] test2:213 - ******************** VerifyScreenshot-forFailedTC *****************************
+2020-04-04 00:34:19,575  INFO [main] test2:221 - ******************* Close Browser **********************************
+2020-04-04 00:42:53,098  INFO [main] test2:29 - ******************* Starting test cases execution **********************
+2020-04-04 00:43:02,423  INFO [main] test2:31 - Chrome browser is opened
+2020-04-04 00:43:02,435  INFO [main] test2:36 - ******************* Launching chrome broswer **********************
+2020-04-04 00:43:10,783  INFO [main] test2:43 - ******************* Verify Title Of Page **********************
+2020-04-04 00:43:10,897  INFO [main] test2:51 - ******************* Verify Logo **********************
+2020-04-04 00:43:11,340  INFO [main] test2:59 - ******************* Verify Menu Items1 **********************
+2020-04-04 00:43:15,526  INFO [main] test2:72 - ******************* Verify Menu Items2 **********************
+2020-04-04 00:43:16,865  INFO [main] test2:85 - ******************* Verify Menu Items3 **********************
+2020-04-04 00:43:17,435  INFO [main] test2:99 - ******************* Verify Mouse Hover Action **********************
+2020-04-04 00:43:17,651  INFO [main] test2:109 - ******************* Verify Element To Be Clickable **********************
+2020-04-04 00:43:26,695  INFO [main] test2:119 - ******************* Verify Element To Be Clickable  **********************
+2020-04-04 00:43:33,706  INFO [main] test2:127 - ******************* Verify Window Handle **********************
+2020-04-04 00:43:39,990  INFO [main] test2:138 - ******************* VerifyTextBoxLabel : for src textbox **********************
+2020-04-04 00:43:40,088  INFO [main] test2:146 - ******************* VerifyFromSourceInputBox :By Entering Text **********************
+2020-04-04 00:43:40,723  INFO [main] test2:153 - ******************* VerifyFromSourceInputBox : By selecting Text from autopopup list **********************
+2020-04-04 00:43:43,782  INFO [main] test2:165 - ******************* VerifyTextBoxLabel : for dest textbox **********************
+2020-04-04 00:43:44,013  INFO [main] test2:174 - ******************* VerifyToDestinationInputBox :By Entering Text **********************
+2020-04-04 00:43:44,355  INFO [main] test2:183 - ******************* VerifyToDestinationInputBox : By selecting Text from autopopup list **********************
+2020-04-04 00:43:47,206  INFO [main] test2:196 - ******************* Verify: PickDateFromCalender for Onward Journey **********************
+2020-04-04 00:43:48,277  INFO [main] test2:204 - ******************* VerifyScreenshot : Redbus Logo **********************
+2020-04-04 00:43:49,212  INFO [main] test2:213 - ******************* VerifyScreenshot-forFailedTC ********************** 
+2020-04-04 00:43:49,991  INFO [main] test2:221 - ******************* Close Browser **********************
+2020-04-04 00:45:47,425  INFO [main] test2:29 - ******************* Starting test cases execution **********************
+2020-04-04 00:45:55,720  INFO [main] test2:31 - Chrome browser is opened
+2020-04-04 00:45:55,734  INFO [main] test2:36 - ******************* Launching chrome broswer **********************
+2020-04-04 00:46:11,118  INFO [main] test2:43 - ******************* Verify Title Of Page **********************
+2020-04-04 00:46:11,164  INFO [main] test2:51 - ******************* Verify Logo **********************
+2020-04-04 00:46:11,493  INFO [main] test2:59 - ******************* Verify Menu Items1 **********************
+2020-04-04 00:46:15,156  INFO [main] test2:72 - ******************* Verify Menu Items2 **********************
+2020-04-04 00:46:16,788  INFO [main] test2:85 - ******************* Verify Menu Items3 **********************
+2020-04-04 00:46:17,240  INFO [main] test2:99 - ******************* Verify Mouse Hover Action **********************
+2020-04-04 00:46:17,342  INFO [main] test2:109 - ******************* Verify Element To Be Clickable **********************
+2020-04-04 00:46:34,188  INFO [main] test2:119 - ******************* Verify Element To Be Clickable  **********************
+2020-04-04 00:46:36,537  INFO [main] test2:127 - ******************* Verify Window Handle **********************
+2020-04-04 00:46:41,205  INFO [main] test2:138 - ******************* VerifyTextBoxLabel : for src textbox **********************
+2020-04-04 00:46:41,302  INFO [main] test2:146 - ******************* VerifyFromSourceInputBox :By Entering Text **********************
+2020-04-04 00:46:41,811  INFO [main] test2:153 - ******************* VerifyFromSourceInputBox : By selecting Text from autopopup list **********************
+2020-04-04 00:46:44,815  INFO [main] test2:165 - ******************* VerifyTextBoxLabel : for dest textbox **********************
+2020-04-04 00:46:45,035  INFO [main] test2:174 - ******************* VerifyToDestinationInputBox :By Entering Text **********************
+2020-04-04 00:46:45,297  INFO [main] test2:183 - ******************* VerifyToDestinationInputBox : By selecting Text from autopopup list **********************
+2020-04-04 00:46:48,020  INFO [main] test2:196 - ******************* Verify: PickDateFromCalender for Onward Journey **********************
+2020-04-04 00:46:49,092  INFO [main] test2:204 - ******************* VerifyScreenshot : Redbus Logo **********************
+2020-04-04 00:46:49,996  INFO [main] test2:213 - ******************* VerifyScreenshot-forFailedTC ********************** 
+2020-04-04 00:46:50,785  INFO [main] test2:222 - ******************* Close Browser **********************
+2020-04-04 00:51:20,100  INFO [main] test2:28 - ******************* Starting test cases execution  **********************************
+2020-04-04 00:51:27,444  INFO [main] test2:30 - Chrome browser is opened
+2020-04-04 00:51:27,476  INFO [main] test2:35 -  *************************Launching chrome broswer *****************************
+2020-04-04 00:51:42,747  INFO [main] test2:42 - VerifyScreenshot : Redbus Logo
+2020-04-04 13:42:08,134  INFO [main] test2:30 - ******************* Starting test cases execution  **********************************
+2020-04-04 13:42:23,179  INFO [main] test2:32 - Chrome browser is opened
+2020-04-04 13:42:23,218  INFO [main] test2:37 -  *************************Launching chrome broswer *****************************
+2020-04-04 13:42:43,847  INFO [main] test2:53 - ******************* Verify Element To Be Clickable **********************
+2020-04-04 13:44:14,216  INFO [main] test2:30 - ******************* Starting test cases execution  **********************************
+2020-04-04 13:44:22,443  INFO [main] test2:32 - Chrome browser is opened
+2020-04-04 13:44:22,469  INFO [main] test2:37 -  *************************Launching chrome broswer *****************************
+2020-04-04 13:44:38,906  INFO [main] test2:63 - ******************* Verify Element To Be Clickable  **********************
+2020-04-04 13:45:34,671  INFO [main] test2:30 - ******************* Starting test cases execution  **********************************
+2020-04-04 13:45:46,964  INFO [main] test2:32 - Chrome browser is opened
+2020-04-04 13:45:46,992  INFO [main] test2:37 -  *************************Launching chrome broswer *****************************
+2020-04-04 13:46:06,259  INFO [main] test2:63 - ******************* Verify Element To Be Clickable  **********************
+2020-04-04 13:46:58,724  INFO [main] test2:30 - ******************* Starting test cases execution  **********************************
+2020-04-04 13:47:14,187  INFO [main] test2:32 - Chrome browser is opened
+2020-04-04 13:47:14,201  INFO [main] test2:37 -  *************************Launching chrome broswer *****************************
+2020-04-04 13:47:34,231  INFO [main] test2:53 - ******************* Verify Element To Be Clickable **********************
+2020-04-04 13:49:16,564  INFO [main] test2:30 - ******************* Starting test cases execution  **********************************
+2020-04-04 13:49:31,527  INFO [main] test2:32 - Chrome browser is opened
+2020-04-04 13:49:31,543  INFO [main] test2:37 -  *************************Launching chrome broswer *****************************
+2020-04-04 13:49:52,183  INFO [main] test2:53 - ******************* Verify Element To Be Clickable **********************
+2020-04-04 13:51:20,884  INFO [main] test2:30 - ******************* Starting test cases execution  **********************************
+2020-04-04 13:51:36,901  INFO [main] test2:32 - Chrome browser is opened
+2020-04-04 13:51:36,916  INFO [main] test2:37 -  *************************Launching chrome broswer *****************************
+2020-04-04 13:51:47,272  INFO [main] test2:65 - ******************* Verify Element To Be Clickable  **********************
+2020-04-04 14:04:13,563  INFO [main] test2:30 - ******************* Starting test cases execution  **********************************
+2020-04-04 14:04:21,135  INFO [main] test2:32 - Chrome browser is opened
+2020-04-04 14:04:21,159  INFO [main] test2:37 -  *************************Launching chrome broswer *****************************
+2020-04-04 14:04:48,733  INFO [main] test2:53 - ******************* Verify Window Handle **********************
+2020-04-04 14:06:01,458  INFO [main] test2:30 - ******************* Starting test cases execution  **********************************
+2020-04-04 14:06:09,358  INFO [main] test2:32 - Chrome browser is opened
+2020-04-04 14:06:09,374  INFO [main] test2:37 -  *************************Launching chrome broswer *****************************
+2020-04-04 14:06:23,780  INFO [main] test2:53 - ******************* Verify Window Handle **********************
+2020-04-04 14:17:20,486  INFO [main] test2:30 - ******************* Starting test cases execution  **********************************
+2020-04-04 14:17:28,135  INFO [main] test2:32 - Chrome browser is opened
+2020-04-04 14:17:28,154  INFO [main] test2:37 -  *************************Launching chrome broswer *****************************
+2020-04-04 14:18:08,456  INFO [main] test2:53 - ******************* Verify Window Handle **********************
+2020-04-04 14:20:03,737  INFO [main] test2:30 - ******************* Starting test cases execution  **********************************
+2020-04-04 14:20:11,528  INFO [main] test2:32 - Chrome browser is opened
+2020-04-04 14:20:11,539  INFO [main] test2:37 -  *************************Launching chrome broswer *****************************
+2020-04-04 14:20:18,406  INFO [main] test2:53 - ******************* Verify Window Handle **********************
+2020-04-04 14:20:51,935  INFO [main] test2:30 - ******************* Starting test cases execution  **********************************
+2020-04-04 14:20:59,773  INFO [main] test2:32 - Chrome browser is opened
+2020-04-04 14:20:59,784  INFO [main] test2:37 -  *************************Launching chrome broswer *****************************
+2020-04-04 14:21:06,380  INFO [main] test2:53 - ******************* Verify Window Handle **********************
